@@ -283,7 +283,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     '006',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -297,7 +297,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     '007',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily: 'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -311,7 +311,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     '008',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -323,7 +323,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   // pMu (78:3914)
                                   '009',
                                   style: TextStyle (
-                                    // 'Mate',
+                                    fontFamily:'Mate',
                                     fontSize: 16*ffem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.7000000477*ffem/fem,
@@ -346,7 +346,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Status',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily: 'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 2.4*ffem/fem,
@@ -360,7 +360,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -374,7 +374,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -388,7 +388,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -402,7 +402,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily: 'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -416,7 +416,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -430,7 +430,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -444,7 +444,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -458,7 +458,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   child: Text(
                                     'Active',
                                     style: TextStyle (
-                                      // 'Mate',
+                                      fontFamily:'Mate',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w400,
                                       height: 1.7000000477*ffem/fem,
@@ -470,7 +470,7 @@ class _CategoryPageState extends State<CategoryPage> {
                                   // activezzT (78:3913)
                                   'Active',
                                   style: TextStyle (
-                                    // 'Mate',
+                                    fontFamily:'Mate',
                                     fontSize: 16*ffem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.7000000477*ffem/fem,

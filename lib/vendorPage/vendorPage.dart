@@ -83,7 +83,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // townhallQgF (78:3998)
                                     'Townhall',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 14*fem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -111,7 +111,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Phone No',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 14*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -123,7 +123,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // 5A7 (78:4106)
                                     '9547862450',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -151,7 +151,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Onboarding Date',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -163,7 +163,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // Yhu (78:4118)
                                     '15/06/2008',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -191,7 +191,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Status',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -203,7 +203,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // activeUtP (78:4002)
                                     'Active',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 15*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -231,7 +231,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Vendor',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 10*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -243,7 +243,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kDd (78:4006)
                                     '0001',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -271,7 +271,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Name',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -283,7 +283,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kumardAw (78:4010)
                                     'Kumar',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 15*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -323,7 +323,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // teagYX (78:4013)
                                     'Tea',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -404,7 +404,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // townhallQgF (78:3998)
                                     'Townhall',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 14*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -432,7 +432,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Phone No',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 14*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -444,7 +444,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // 5A7 (78:4106)
                                     '9547862450',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -472,7 +472,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Onboarding Date',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -484,7 +484,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // Yhu (78:4118)
                                     '11/04/2018',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -512,7 +512,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Status',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -524,7 +524,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // activeUtP (78:4002)
                                     'Active',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 15*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -552,7 +552,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Vendor',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 10*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -564,7 +564,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kDd (78:4006)
                                     '0002',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -592,7 +592,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Name',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -604,7 +604,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kumardAw (78:4010)
                                     'Selva',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -644,7 +644,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // teagYX (78:4013)
                                     'Flower',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -725,7 +725,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // townhallQgF (78:3998)
                                     'Townhall',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 14*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -753,7 +753,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Phone No',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 14*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -765,7 +765,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // 5A7 (78:4106)
                                     '9547862450',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -793,7 +793,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Onboarding Date',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000000817*ffem/fem,
@@ -805,7 +805,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // Yhu (78:4118)
                                     '05/06/2016',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -833,7 +833,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Status',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -845,7 +845,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // activeUtP (78:4002)
                                     'Active',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:'Lato',
                                       fontSize: 15*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -873,7 +873,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Vendor',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily:'Mate',
                                         fontSize: 10*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -885,7 +885,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kDd (78:4006)
                                     '0003',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily:  'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -913,7 +913,7 @@ class _VendorPageState extends State<VendorPage> {
                                     child: Text(
                                       'Name',
                                       style: TextStyle (
-                                        // 'Mate',
+                                        fontFamily: 'Mate',
                                         fontSize: 12*ffem,
                                         fontWeight: FontWeight.w400,
                                         height: 1.7000001272*ffem/fem,
@@ -925,7 +925,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // kumardAw (78:4010)
                                     'Raju',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,
@@ -965,7 +965,7 @@ class _VendorPageState extends State<VendorPage> {
                                     // teagYX (78:4013)
                                     'Flower',
                                     style: TextStyle (
-                                      // 'Lato',
+                                      fontFamily: 'Lato',
                                       fontSize: 16*ffem,
                                       fontWeight: FontWeight.w500,
                                       height: 1.7000000477*ffem/fem,

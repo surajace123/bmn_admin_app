@@ -63,7 +63,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                               'BMN',
                               textAlign: TextAlign.center,
                               style: TextStyle (
-                                // 'Orbitron',
+                                fontFamily: 'Orbitron',
                                 fontSize: 28.5714263916*ffem,
                                 fontWeight: FontWeight.w500,
                                 height: 0.769999992*ffem/fem,
@@ -81,7 +81,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                         'Tue, 23th Jan 2024',
                         textAlign: TextAlign.center,
                         style: TextStyle (
-                          // 'Nunito',
+                          fontFamily:'Nunito',
                           fontSize: 14*ffem,
                           fontWeight: FontWeight.w500,
                           height: 1.7000000817*ffem/fem,
@@ -151,7 +151,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             child: Text(
                                               'Name',
                                               style: TextStyle (
-                                                // 'Mate',
+                                                fontFamily: 'Mate',
                                                 fontSize: 12*ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.7000001272*ffem/fem,
@@ -163,7 +163,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             // vijay17d (59:2750)
                                             'Vijay',
                                             style: TextStyle (
-                                              // 'Lato',
+                                              fontFamily:'Lato',
                                               fontSize: 16*ffem,
                                               fontWeight: FontWeight.w500,
                                               height: 1.7000000477*ffem/fem,
@@ -186,7 +186,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             child: Text(
                                               'DOB',
                                               style: TextStyle (
-                                                // 'Mate',
+                                                fontFamily: 'Mate',
                                                 fontSize: 14*ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.7000000817*ffem/fem,
@@ -198,7 +198,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             // 7ps (59:2753)
                                             '08/10/2000',
                                             style: TextStyle (
-                                              // 'Lato',
+                                              fontFamily:'Lato',
                                               fontSize: 16*ffem,
                                               fontWeight: FontWeight.w500,
                                               height: 1.7000000477*ffem/fem,
@@ -232,7 +232,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             child: Text(
                                               'Role',
                                               style: TextStyle (
-                                                // 'Mate',
+                                                fontFamily:'Mate',
                                                 fontSize: 12*ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.7000001272*ffem/fem,
@@ -244,7 +244,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             // userhgb (59:2746)
                                             'User',
                                             style: TextStyle (
-                                              // 'Lato',
+                                              fontFamily:'Lato',
                                               fontSize: 16*ffem,
                                               fontWeight: FontWeight.w500,
                                               height: 1.7000000477*ffem/fem,
@@ -267,7 +267,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             child: Text(
                                               'DOJ',
                                               style: TextStyle (
-                                                // 'Mate',
+                                                fontFamily:'Mate',
                                                 fontSize: 14*ffem,
                                                 fontWeight: FontWeight.w400,
                                                 height: 1.7000000817*ffem/fem,
@@ -279,7 +279,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                             // UjH (59:2738)
                                             '02/01/2024',
                                             style: TextStyle (
-                                              // 'Lato',
+                                              fontFamily:'Lato',
                                               fontSize: 16*ffem,
                                               fontWeight: FontWeight.w500,
                                               height: 1.7000000477*ffem/fem,
@@ -305,7 +305,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                       child: Text(
                                         'Status',
                                         style: TextStyle (
-                                          // 'Mate',
+                                          fontFamily:'Mate',
                                           fontSize: 12*ffem,
                                           fontWeight: FontWeight.w400,
                                           height: 1.7000001272*ffem/fem,
@@ -317,7 +317,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                       // activeypT (59:2742)
                                       'Active',
                                       style: TextStyle (
-                                        // 'Lato',
+                                        fontFamily:'Lato',
                                         fontSize: 15*ffem,
                                         fontWeight: FontWeight.w500,
                                         height: 1.7000000477*ffem/fem,
@@ -349,7 +349,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   'Name',
                                   style: TextStyle (
-                                    // 'Mate',
+                                    fontFamily: 'Mate',
                                     fontSize: 20*ffem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.7*ffem/fem,
@@ -363,7 +363,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   'Vijay BMN',
                                   style: TextStyle (
-                                    // 'Lato',
+                                    fontFamily:'Lato',
                                     fontSize: 15*ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.7000000477*ffem/fem,
@@ -393,7 +393,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   'Password',
                                   style: TextStyle (
-                                    // 'Mate',
+                                    fontFamily: 'Mate',
                                     fontSize: 20*ffem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.7*ffem/fem,
@@ -407,7 +407,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   '******',
                                   style: TextStyle (
-                                    // 'Lato',
+                                    fontFamily:'Lato',
                                     fontSize: 16*ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.7000000477*ffem/fem,
@@ -437,7 +437,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   'Gmail',
                                   style: TextStyle (
-                                    // 'Mate',
+                                    fontFamily:'Mate',
                                     fontSize: 20*ffem,
                                     fontWeight: FontWeight.w400,
                                     height: 1.7*ffem/fem,
@@ -451,7 +451,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                                 child: Text(
                                   'vijaybmn@gmail.com',
                                   style: TextStyle (
-                                    // 'Lato',
+                                    fontFamily: 'Lato',
                                     fontSize: 13*ffem,
                                     fontWeight: FontWeight.w500,
                                     height: 1.7000000477*ffem/fem,
@@ -475,7 +475,7 @@ class _UserMoreDetailedPageState extends State<UserMoreDetailedPage> {
                             child: Text(
                               'Reset Password',
                               style: TextStyle (
-                                // 'Mate',
+                                fontFamily:'Mate',
                                 fontSize: 20*ffem,
                                 fontWeight: FontWeight.w400,
                                 height: 1.7*ffem/fem,
