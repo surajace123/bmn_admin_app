@@ -1,11 +1,8 @@
 import 'dart:async';
 
-import 'package:bmn_admin_app/utils/app_constant.dart';
-import 'package:bmn_admin_app/utils/font_size.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../utils/image.dart';
 import 'homePageScreen.dart';
 
 
@@ -34,25 +31,50 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   @override
   Widget build(BuildContext context) {
+    double baseWidth = 430;
+    double fem = MediaQuery.of(context).size.width / baseWidth;
+    double ffem = fem * 0.97;
     return Scaffold(
+
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Row(
-             mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset(Images.logo,height: FontSizes.fontsize64,width: FontSizes.fontsize64,),
-                SizedBox(width: FontSizes.fontsize25,),
-                Center(
-                  child: Text(AppStrings.splashLargeText,style: TextStyle(fontFamily:AppConstants.fontFamilyOrbitron,fontSize: FontSizes.fontsize64,fontWeight: FontWeight.w500
-                  ),),
-                ),
-              ],
+            Container(
+              // group3Zyh (89:4555)
+              margin: EdgeInsets.fromLTRB(80*fem, 0*fem, 0*fem, 50*fem),
+              width: double.infinity,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                    // group1T3V (89:4557)
+                    margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 13.85*fem, 0*fem),
+                    width: 260.53*fem,
+                    height: 70*fem,
+                    child: Image.asset(
+                      'assets/images/BMNSplashLogo.png',
+                      width: 64.53*fem,
+                      height: 60*fem,
+                    ),
+                  ),
+
+                ],
+              ),
             ),
-            Center(
-              child: Text(AppStrings.splashSmallText,style: TextStyle(fontSize: FontSizes.fontsize40,fontWeight: FontWeight.w500,fontFamily: AppConstants.fontFamilyPoppins
-              ),),
+            Container(
+              // ownerloginfom (89:4566)
+
+              child: Text(
+                'Admin Login',
+                textAlign: TextAlign.center,
+                style: TextStyle (
+                  fontFamily: 'Poppins',
+                  fontSize: 42*ffem,
+                  fontWeight: FontWeight.w500,
+                  height: 0.7699999809*ffem/fem,
+                  color: Color(0xff000000),
+                ),
+              ),
             ),
           ],
         )

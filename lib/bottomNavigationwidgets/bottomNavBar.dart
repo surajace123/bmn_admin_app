@@ -43,7 +43,7 @@ class _BottomNavigationState extends State<BottomNavigation> {
   Widget build(BuildContext context) {
     return Container(
       width: 398,
-      height: 80,
+      height: MediaQuery.of(context).size.height/10.50,
       margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(45),

@@ -39,13 +39,13 @@ class _AddVendorsPageState extends State<AddVendorsPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
             children: [
               Text('Name',style: TextStyle(fontWeight: FontWeight.w400,fontSize: 20),),
               SizedBox(width: 40),
               Container(
-                width: MediaQuery.of(context).size.width/1.66,
+                width: MediaQuery.of(context).size.width/1.8,
                 height: MediaQuery.of(context).size.height/18,
 
 
@@ -70,13 +70,12 @@ class _AddVendorsPageState extends State<AddVendorsPage> {
           ),
           SizedBox(height: 15,),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.category_id,style: TextStyle(fontWeight: FontWeight.w400,fontSize:FontSizes.fontsize18,fontFamily: AppConstants.fontFamilyMate,),),
-              // SizedBox(width: 40),
+              SizedBox(width: 5),
               Container(
-                width: MediaQuery.of(context).size.width / 1.65,
+                width: MediaQuery.of(context).size.width / 1.8,
                 height: MediaQuery.of(context).size.height / 18,
                 decoration: BoxDecoration(
                   border: Border.all(color: ConstantColors.primaryColor),
@@ -105,7 +104,7 @@ class _AddVendorsPageState extends State<AddVendorsPage> {
                   },
                   underline: Container(),
                   icon: Padding(
-                    padding: const EdgeInsets.only(left: 170),
+                    padding: const EdgeInsets.only(left: 130),
                     child: Icon(Icons.arrow_drop_down),
                   ),
                 ),
@@ -116,41 +115,63 @@ class _AddVendorsPageState extends State<AddVendorsPage> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ElevatedButton(
-                onPressed: () {
-                  // Handle cancel button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.white,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
-                    side: BorderSide(color: Color.fromRGBO(252, 209, 37, 1)), // Set border color
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 40),
-                ),
-                child: Text(
-                  'Cancel',
-                  style: TextStyle(color: Color.fromRGBO(252, 209, 37, 1), fontSize: 16, fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Cancel',
+                      style: TextStyle(color: Color.fromRGBO(252, 209, 37, 1),fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
-              SizedBox(width: 10,),
-
-              ElevatedButton(
-                onPressed: () {
-                  // Handle add button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary:Color.fromRGBO(252, 209, 37, 1),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(252, 209, 37, 1),
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 40),
-                ),
-                child: Text(
-                  'Add',
-                  style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Add',
+                      style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
+              //
+              // ElevatedButton(
+              //   onPressed: () {
+              //     // Handle add button press
+              //   },
+              //   style: ElevatedButton.styleFrom(
+              //     primary:ConstantColors.primaryColor,
+              //     shape: RoundedRectangleBorder(
+              //       borderRadius: BorderRadius.circular(6.0),
+              //     ),
+              //     minimumSize: Size(160, 45),
+              //   ),
+              //   child: Text(
+              //     'Add',
+              //     style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w600),
+              //   ),
+              // ),
 
             ],
           ),

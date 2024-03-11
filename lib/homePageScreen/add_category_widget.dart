@@ -36,8 +36,8 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
             children: [
               Text(AppStrings.name,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
               SizedBox(width: 40),
@@ -67,13 +67,12 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
           ),
           SizedBox(height: 15,),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.category,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate,)),
-              // SizedBox(width: 40),
+              SizedBox(width: 16),
               Container(
-                width: MediaQuery.of(context).size.width / 1.79,
+                width: MediaQuery.of(context).size.width / 1.8,
                 height: MediaQuery.of(context).size.height / 18,
                 decoration: BoxDecoration(
                   border: Border.all(color: ConstantColors.primaryColor),
@@ -102,7 +101,7 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
                   },
                   underline: Container(),
                   icon: Padding(
-                    padding: const EdgeInsets.only(left: 130),
+                    padding: const EdgeInsets.only(left: 110),
                     child: Icon(Icons.arrow_drop_down),
                   ),
                 ),
@@ -111,11 +110,12 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
           ),
           SizedBox(height: 15,),
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
 
             children: [
               Text(AppStrings.vendor_id,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate,),),
+              SizedBox(width: 16),
 
               Container(
                 width: MediaQuery.of(context).size.width/1.8,
@@ -142,10 +142,10 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
           ),
           SizedBox(height: 15,),
           Row(
-
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.onboardedDate,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize18,fontFamily: AppConstants.fontFamilyMate,),),
-              SizedBox(width: FontSizes.fontsize15),
+              // SizedBox(width: FontSizes.fontsize5),
               InkWell(
                 onTap: () => _selectDate(context),
                 child: Container(
@@ -177,10 +177,10 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
 
 
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.location,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate,),),
+              SizedBox(width: 16),
 
               Container(
                 width: MediaQuery.of(context).size.width/1.8,
@@ -208,10 +208,10 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
           SizedBox(height: 15),
 
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.phoneNo,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate,),),
+              SizedBox(width: 16),
 
               Container(
                 width: MediaQuery.of(context).size.width/1.8,
@@ -240,41 +240,63 @@ class _AddCategoryPageContentState extends State<AddCategoryPageContent> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ElevatedButton(
-                onPressed: () {
-                  // Handle cancel button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.white,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
-                    side: BorderSide(color: ConstantColors.primaryColor), // Set border color
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 50),
-                ),
-                child: Text(
-                  'Cancel',
-                  style: TextStyle(color: ConstantColors.primaryColor, fontSize: FontSizes.fontsize16, fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Cancel',
+                      style: TextStyle(color: Color.fromRGBO(252, 209, 37, 1),fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
-              SizedBox(width: 10,),
-
-              ElevatedButton(
-                onPressed: () {
-                  // Handle add button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary:ConstantColors.primaryColor,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(252, 209, 37, 1),
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 50),
-                ),
-                child: Text(
-                  'Add',
-                  style: TextStyle(color: ConstantColors.whiteColor,fontSize: FontSizes.fontsize16,fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Add',
+                      style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
+              //
+              // ElevatedButton(
+              //   onPressed: () {
+              //     // Handle add button press
+              //   },
+              //   style: ElevatedButton.styleFrom(
+              //     primary:ConstantColors.primaryColor,
+              //     shape: RoundedRectangleBorder(
+              //       borderRadius: BorderRadius.circular(6.0),
+              //     ),
+              //     minimumSize: Size(160, 45),
+              //   ),
+              //   child: Text(
+              //     'Add',
+              //     style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w600),
+              //   ),
+              // ),
 
             ],
           ),

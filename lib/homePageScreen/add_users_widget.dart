@@ -36,13 +36,13 @@ TextEditingController usernameController = TextEditingController();
 
         children: [
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.name,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-              SizedBox(width: 60),
+              SizedBox(width: 27),
               Container(
-                width: MediaQuery.of(context).size.width/1.65,
-                height: MediaQuery.of(context).size.height/18,
+                width: MediaQuery.of(context).size.width/1.8,
+                height: MediaQuery.of(context).size.height/20,
 
 
                 decoration: BoxDecoration(
@@ -66,13 +66,13 @@ TextEditingController usernameController = TextEditingController();
           ),
           SizedBox(height: 15,),
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.role,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-              SizedBox(width: FontSizes.fontsize75),
+          SizedBox(width: 34,),
               Container(
-                width: MediaQuery.of(context).size.width / 1.65,
-                height: MediaQuery.of(context).size.height / 18,
+                width: MediaQuery.of(context).size.width / 1.8,
+                height: MediaQuery.of(context).size.height / 20,
                 decoration: BoxDecoration(
                   border: Border.all(color: ConstantColors.primaryColor),
                   borderRadius: BorderRadius.circular(5.0),
@@ -100,7 +100,7 @@ TextEditingController usernameController = TextEditingController();
                   },
                   underline: Container(),
                   icon: Padding(
-                    padding: const EdgeInsets.only(left: 140),
+                    padding: const EdgeInsets.only(left: 110),
                     child: Icon(Icons.arrow_drop_down),
                   ),
                 ),
@@ -110,30 +110,28 @@ TextEditingController usernameController = TextEditingController();
           ),
           SizedBox(height: 15,),
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: [
               Text(AppStrings.dob,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-              SizedBox(width: 75),
+              SizedBox(width: 35,),
               InkWell(
                 onTap: () => _selectDate(context),
                 child: Container(
-                  width: MediaQuery.of(context).size.width/1.65,
+                  width: MediaQuery.of(context).size.width/1.8,
 
-                  height: MediaQuery.of(context).size.height/18,
+                  height: MediaQuery.of(context).size.height/20,
 
                   decoration: BoxDecoration(
-                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 0.8),
+                    border: Border.all(color: ConstantColors.primaryColor,width: 0.8),
                     borderRadius: BorderRadius.circular(5.0),
                   ),
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-
                     children: [
                       Text(
-                        "${selectedDate.toLocal()}".split(' ')[0],style: TextStyle(color: Color.fromRGBO(190, 190, 190, 1)),
+                          "${selectedDate.toLocal()}".split(' ')[0],style: TextStyle(color: Color.fromRGBO(190, 190, 190, 1))
                       ),
                       SizedBox(width: 5),
                       Icon(Icons.calendar_month),
@@ -146,17 +144,17 @@ TextEditingController usernameController = TextEditingController();
           SizedBox(height: 15,),
 
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 
             children: [
               Text(AppStrings.doj,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-              SizedBox(width: 75),
+       SizedBox(width: 35,),
               InkWell(
                 onTap: () => _selectDate(context),
                 child: Container(
-                  width: MediaQuery.of(context).size.width/1.65,
+                  width: MediaQuery.of(context).size.width/1.8,
 
-                  height: MediaQuery.of(context).size.height/18,
+                  height: MediaQuery.of(context).size.height/20,
 
                   decoration: BoxDecoration(
                     border: Border.all(color: ConstantColors.primaryColor,width: 0.8),
@@ -179,14 +177,14 @@ TextEditingController usernameController = TextEditingController();
           ),
           SizedBox(height: 15),
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             // crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(AppStrings.username,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-SizedBox(width: 22,),
+
               Container(
-                width: MediaQuery.of(context).size.width/1.65,
-                height: MediaQuery.of(context).size.height/18,
+                width: MediaQuery.of(context).size.width/1.8,
+                height: MediaQuery.of(context).size.height/20,
 
                 decoration: BoxDecoration(
                   border: Border.all(color: ConstantColors.primaryColor,width: 0.8),
@@ -210,13 +208,13 @@ SizedBox(width: 22,),
           SizedBox(height: FontSizes.fontsize15),
 
           Row(
-            // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(AppStrings.password,style: TextStyle(fontWeight: FontWeight.w400,fontSize: FontSizes.fontsize20,fontFamily: AppConstants.fontFamilyMate),),
-              SizedBox(width: 22,),
+
               Container(
-                width: MediaQuery.of(context).size.width/1.62,
-                height: MediaQuery.of(context).size.height/18,
+                width: MediaQuery.of(context).size.width/1.8,
+                height: MediaQuery.of(context).size.height/20,
 
                 decoration: BoxDecoration(
                   border: Border.all(color: Color.fromRGBO(252, 209, 37, 1), width: 0.8),
@@ -237,45 +235,67 @@ SizedBox(width: 22,),
               ),
             ],
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 35),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ElevatedButton(
-                onPressed: () {
-                  // Handle cancel button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary: Colors.white,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
-                    side: BorderSide(color: Color.fromRGBO(252, 209, 37, 1)), // Set border color
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 50),
-                ),
-                child: Text(
-                  'Cancel',
-                  style: TextStyle(color: Color.fromRGBO(252, 209, 37, 1), fontSize: 16, fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Cancel',
+                      style: TextStyle(color: Color.fromRGBO(252, 209, 37, 1),fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
-              SizedBox(width: 10,),
-
-              ElevatedButton(
-                onPressed: () {
-                  // Handle add button press
+              GestureDetector(
+                onTap: () {
+                  // Handle button tap
+                  Navigator.of(context).pop(false);
                 },
-                style: ElevatedButton.styleFrom(
-                  primary:ConstantColors.primaryColor,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(6.0),
+                child: Container(
+                  width: MediaQuery.of(context).size.width/2.4,
+                  height: MediaQuery.of(context).size.height/18, // Set the desired height
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(252, 209, 37, 1),
+                    border: Border.all(color: Color.fromRGBO(252, 209, 37, 1),width: 2),
+                    borderRadius: BorderRadius.circular(5.0), // Increase the border radius
                   ),
-                  minimumSize: Size(175, 50),
-                ),
-                child: Text(
-                  'Add',
-                  style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w600),
+                  child: Center(
+                    child: Text(
+                      'Add',
+                      style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w400,fontFamily: "Mate"),                          ),
+                  ),
                 ),
               ),
+              //
+              // ElevatedButton(
+              //   onPressed: () {
+              //     // Handle add button press
+              //   },
+              //   style: ElevatedButton.styleFrom(
+              //     primary:ConstantColors.primaryColor,
+              //     shape: RoundedRectangleBorder(
+              //       borderRadius: BorderRadius.circular(6.0),
+              //     ),
+              //     minimumSize: Size(160, 45),
+              //   ),
+              //   child: Text(
+              //     'Add',
+              //     style: TextStyle(color: Colors.white,fontSize: 16,fontWeight: FontWeight.w600),
+              //   ),
+              // ),
 
             ],
           ),

@@ -41,7 +41,7 @@ class _MainPageScreenState extends State<MainPageScreen> {
               height: 26,
             ),
 
-            SizedBox(width: 130),
+            SizedBox(width: MediaQuery.of(context).size.width/3.7),
             Container(
               width: 121,
               height: 24,
@@ -70,8 +70,7 @@ class _MainPageScreenState extends State<MainPageScreen> {
       ),
       body: pages[myCurrentIndex],
 
-      bottomNavigationBar:
-      BottomNavigation(
+      bottomNavigationBar: BottomNavigation(
         currentIndex: myCurrentIndex,
         onTap: (index) {
           setState(() {

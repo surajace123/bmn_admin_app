@@ -29,22 +29,16 @@ class _CollapsibleExpansionTileState extends State<CollapsibleExpansionTile> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+   mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         ListTile(
-          title: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: FontSizes.fontsize10),
-            child: Text(
-              widget.title,
-              style: TextStyle(color: ConstantColors.primaryColor),
-            ),
+          title: Text(
+            widget.title,
+            style: TextStyle(color: ConstantColors.primaryColor),
           ),
-          trailing: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: FontSizes.fontsize10),
-            child: Icon(
-              Icons.add_circle_outline_rounded,
-              color: ConstantColors.primaryColor,
-            ),
+          trailing: Icon(
+            Icons.add_circle_outline_rounded,
+            color: ConstantColors.primaryColor,
           ),
           onTap: () {
             setState(() {
@@ -159,14 +153,14 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
 
               Container(
-                margin: const EdgeInsets.only(left: FontSizes.fontsize16, right: FontSizes.fontsize16, top: FontSizes.fontsize20),
+                margin: const EdgeInsets.only(left: FontSizes.fontsize25, right: FontSizes.fontsize25, top: FontSizes.fontsize20),
                 decoration: BoxDecoration(
                   border: Border.all(color: ConstantColors.primaryColor),
                   borderRadius: BorderRadius.circular(FontSizes.fontsize15),
                 ),
                 child: _expansionTile,
               ),
-              SizedBox(height: 16),
+              SizedBox(height: 4),
               Container(
                 padding: const EdgeInsets.all(16.0),
                 child: _buildContent(selectedItem),
